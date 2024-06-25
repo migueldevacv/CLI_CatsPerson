@@ -20,3 +20,9 @@ Also add the "nat" param on the random user to use only names used on united sta
 
 NOTE 
 To extract the interfaces from the APIs I used the converter of  https://app.quicktype.io/?l=ts to extract the Interface
+
+
+# NEW UPDATE
+On the latest update I fixed the problem with the refresh when you focus thw window, for do that I need add the refetchOnWindowFocus propertie setted on false.
+Also I solve the problem where 1 request is responsed before the other, to solve that I created the PostService with the function to excecute both request and use the PostFormatter to create the structure for the posts, with this also I may to use only the PostService to get both responses of cats and users
+

@@ -1,6 +1,6 @@
 import { IntPost } from "@/interfaces/IntPost";
 
-export default function CardSkeleton({ post }: { post: IntPost }) {
+export default function CardSkeleton() {
     return (
         <div className="mx-5 animate-pulse bg-white rounded-lg p-3 shadow-md">
             <div className="flex items-center p-1 gap-2">
