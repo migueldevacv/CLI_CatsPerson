@@ -1,8 +1,8 @@
 Start Project
 run: 
-    npm install
-    npm run dev
-    enter into localhost:3000
+1. npm install
+2. npm run dev
+3. enter into localhost:3000
 
 
 After all the meeting, I implement react query
